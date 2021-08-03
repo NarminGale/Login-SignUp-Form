@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  background: linear-gradient(to right bottom, #f9bc60, #ffa8ba);
+  overflow: hidden;
+}
+
+.signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.13);
+
+  /* border: 1px solid red; */
+}
+
+.btn-signup {
+  background-color: #faae2b;
+  color: #00473e;
+  letter-spacing: 0.06rem;
+  padding: 0.5rem 1.4rem;
+  font-weight: 500;
+  margin: 1rem 0 1.6rem 0;
+}
+
+.btn-signup:focus {
+  box-shadow: none;
+}
+
+.btn-signup:active {
+  transform: translateY(-2px);
+}
+
+.btn-signup:hover {
+  box-shadow: 0 2rem 3rem rgba(39, 18, 18, 0.103);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #475d5b;
+}
+
+.signup .row .col-sm-7:first-child {
+  padding-top: 3rem !important;
+}
+
+.signup .row .col-sm-5:last-child {
+  padding: 2rem 4rem 1.5rem 2rem !important;
+}
+
+ul {
+  padding-left: 0;
+  position: relative;
+}
+
+ul li {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.create-account p,
+.create-account ul {
+  display: inline-block;
+}
+
+.create-account ul li:first-child {
+  top: -0.4rem;
+  left: 0rem;
+}
+
+.create-account ul li:last-child {
+  top: -0.4rem;
+  left: 2.8rem;
+}
+
+.create-account p,
+.form-section .header p {
+  letter-spacing: 0.02rem;
+  color: #475d5b;
+}
+
+.form-section .header p:first-child a {
+  text-decoration: none;
+  color: #da9c31;
+  font-weight: bold;
+}
+
+.form-section .header p:first-child a:hover {
+  color: #d49019;
+}
+
+.form-section .header h1 {
+  white-space: nowrap;
+  color: #da9c31;
+}
+
+.form-section .header h1 span {
+  color: #03234e;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-github {
+  color: black;
+}
